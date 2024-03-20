@@ -1,0 +1,12 @@
+{
+  "name": "project",
+  "devDependencies": {
+    "vite": "^5.1.6"
+  },
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "rm -rf dist && mkdir dist && cp index.* dist/. && cp -R images dist/.",
+    "preview": "vite preview"
+  }
+}
