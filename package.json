@@ -6,7 +6,7 @@
   "scripts": {
     "start": "vite",
     "dev": "vite",
-    "build": "rm -rf dist && mkdir dist && cp index.* dist/. && cp -R images dist/.",
+    "build": "rm -rf dist && mkdir dist && cp index.* dist/.",
     "preview": "vite preview"
   }
 }
